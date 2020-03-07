@@ -56,6 +56,7 @@ if($status==false){
     </form>
 
 <!-- ここからinsert_sake.phpにデータを送ります -->
+<!-- 関係ない -->
     <form method="post" action="insert_sake.php">
       <div id="register">
         <h1 id="name">Sake</h1>
@@ -70,6 +71,7 @@ if($status==false){
     </form>
 
 <!-- ここからinsert_beer.phpにデータを送ります -->
+<!-- 関係ない -->
     <form method="post" action="insert_beer.php">
       <div id="register">
         <h1 id="name">Beer</h1>
@@ -84,6 +86,7 @@ if($status==false){
     </form>
 
 <!-- ここからinsert_coffee.phpにデータを送ります -->
+<!-- 関係ない -->
     <form method="post" action="insert_coffee.php">
       <div id="register">
         <h1 id="name">Coffe & Tea</h1>
