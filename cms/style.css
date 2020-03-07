@@ -1,0 +1,83 @@
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1#title {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;
+}
+
+h1#name {
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    background-color: cadetblue;
+}
+
+label {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    display: contents;
+}
+
+#submit_wine {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: cadetblue;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px cadetblue;
+    border: dashed 1px #FFF;
+    width: 150px;
+    font-size: 100%;
+    margin: 0 0 10px 700px;
+}
+
+#submit_sake {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: cadetblue;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px cadetblue;
+    border: dashed 1px #FFF;
+    width: 150px;
+    font-size: 100%;
+    margin: 0 0 10px 700px;
+}
+
+#submit_beer {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: cadetblue;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px cadetblue;
+    border: dashed 1px #FFF;
+    width: 150px;
+    font-size: 100%;
+    margin: 0 0 10px 700px;
+}
+
+#submit_coffee {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: cadetblue;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px cadetblue;
+    border: dashed 1px #FFF;
+    width: 150px;
+    font-size: 100%;
+    margin: 0 0 10px 700px;
+}

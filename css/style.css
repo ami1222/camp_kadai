@@ -1,0 +1,291 @@
+#home {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1#title {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1#title::first-letter {
+  font-family: cursive;
+  font-style: italic;
+  color: cadetblue;
+  font-size: 80px;
+}
+
+p#naiyou {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p#naiyou {
+  font-family: cursive;
+}
+
+#line1 {
+  display: flex;
+  justify-content: center;
+}
+
+#wine {
+  width: 400px;
+  height: 200px;
+  /* background-color: salmon; */
+  background-color: cadetblue;
+  border-radius: 3px 50px;
+  margin: 0 20px 20px 0;
+}
+
+#wine:hover {
+  background-image: url(../img/wine.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+p#home_text {
+  font-family: cursive;
+  color: white;
+  text-shadow: 3px 3px 0 black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#sake {
+  width: 400px;
+  height: 200px;
+  border-radius: 50px 3px;
+  /* background-color: aqua; */
+  background-color: cadetblue;
+}
+
+#sake:hover {
+  background-image: url(../img/sake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+#line2 {
+  display: flex;
+  justify-content: center;
+}
+
+#beer {
+  width: 400px;
+  height: 200px;
+  border-radius: 50px 3px;
+  /* background-color: yellow; */
+  background-color: cadetblue;
+  margin-right: 20px;
+}
+
+#beer:hover {
+  background-image: url(../img/beer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+#coffee {
+  width: 400px;
+  height: 200px;
+  border-radius: 3px 50px;
+  /* background-color: greenyellow; */
+  background-color: cadetblue;
+}
+
+#coffee:hover {
+  background-image: url(../img/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+/* 各page */
+
+#home {
+  width: 900px;
+}
+
+#line3 {
+  display: flex;
+  justify-content: center;
+}
+
+#line4 {
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+}
+
+h1#subtitle {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 50px;
+}
+
+p#home_btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+p#home_btn img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid cadetblue;
+  margin-left: 10px;
+}
+
+p#wine_btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+p#wine_btn img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid cadetblue;
+  margin-left: 10px;
+}
+
+p#sake_btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+p#sake_btn img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid cadetblue;
+  margin-left: 10px;
+}
+
+p#beer_btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+p#beer_btn img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid cadetblue;
+  margin-left: 10px;
+}
+
+p#coffee_btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid black;
+  margin-left: 10px;
+}
+
+p#coffee_btn img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /*角丸*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-size: cover;
+  border: 5px solid cadetblue;
+  margin-left: 10px;
+}
+
+ul#list {
+  margin: 0px 80px;
+  list-style: none;
+  
+}
+
+p#name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  background: linear-gradient(transparent 70%, cadetblue 70%);
+  margin-top: 100px;
+}
+
+li#genre {
+  font-family:cursive;
+}
+
+li#access {
+  font-family: cursive;
+}
+
+li#url {
+  font-family: cursive;
+}
+
+li#comment {
+  font-family:cursive;
+}
+
+p#update {
+  text-align: right;
+}
+
